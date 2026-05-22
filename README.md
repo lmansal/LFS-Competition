@@ -63,6 +63,7 @@ LFS-Competition/
 ├── perfil.php
 ├── equipo.php
 └── logout.php
+```
 
 ---
 
