@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: vl24900.dinaserver.com:3306
--- Tiempo de generación: 14-05-2026 a las 14:09:23
+-- Tiempo de generación: 22-05-2026 a las 10:42:54
 -- Versión del servidor: 10.5.29-MariaDB-0+deb11u1-log
 -- Versión de PHP: 8.2.8
 
@@ -52,7 +52,7 @@ CREATE TABLE `inscripciones` (
   `estado` enum('inscrito','no_asiste') NOT NULL DEFAULT 'inscrito',
   `carrera` int(11) NOT NULL,
   `usuario` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -95,7 +95,7 @@ CREATE TABLE `temporadas` (
   `nombre` varchar(100) NOT NULL,
   `fecha_inicio` date NOT NULL,
   `fecha_fin` date NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
