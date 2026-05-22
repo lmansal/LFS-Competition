@@ -31,15 +31,18 @@ Plataforma web desarrollada como Proyecto de Fin de Curso del Ciclo Superior de 
 
 ---
 
+## Estructura del proyecto
+
+```bash
 LFS-Competition/
-├── admin/                      # Paneles de administración
+├── admin/                          # Paneles de administración
 │   ├── index.php
 │   ├── carreras.php
 │   ├── equipos.php
 │   ├── resultados.php
 │   ├── sanciones.php
 │   └── usuarios.php
-├── includes/                   # Archivos PHP reutilizables
+├── includes/                       # Archivos PHP reutilizables
 │   ├── header.php
 │   ├── footer.php
 │   ├── functions.php
@@ -49,9 +52,9 @@ LFS-Competition/
 │   └── estilos.css
 ├── js/
 │   └── scripts.js
-├── images/                     # Logos e imágenes
-├── docs/                       # Documentación
-├── index.php                   # Página principal
+├── images/                         # Logos e imágenes
+├── docs/                           # Documentación
+├── index.php                       # Página principal
 ├── login.php
 ├── registro.php
 ├── calendario.php
