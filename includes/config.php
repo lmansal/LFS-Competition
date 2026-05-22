@@ -10,10 +10,10 @@ error_reporting(E_ALL);
 session_start();
 
 // --- Conexión a la base de datos ---
-define('DB_HOST', 'vl24900.dinaserver.com');
-define('DB_NAME', 'daw_jm');
-define('DB_USER', 'daw_jm');
-define('DB_PASS', 'EOfwE1]1$|59');
+define('DB_HOST', '');
+define('DB_NAME', '');
+define('DB_USER', '');
+define('DB_PASS', '');
 
 try {
     $pdo = new PDO(
