@@ -79,7 +79,7 @@ LFS-Competition/
 
 ## Documentación
 
-- [Proyecto completo (PDF)](docs/Proyecto-Fin-de-Curso-Luis-Jesus-Mantecon.pdf)
+- [Proyecto completo (PDF)](Proyecto%20Fin%20de%20Curso%20-%20Luis%20Jesús%20Mantecón%20Salvador.pdf)
 - [Diagrama de base de datos](https://dbdiagram.io/d/69b3f64d78c6c4bc7ad76cce)
 
 ---
